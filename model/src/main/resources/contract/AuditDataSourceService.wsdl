@@ -1,19 +1,19 @@
 <definitions name="AuditDataSource"
-             targetNamespace="urn:source.audit.schema.fisheries.ec.europa.eu:v1"
-             xmlns:source="urn:source.audit.schema.fisheries.ec.europa.eu:v1"
-             xmlns:audit="urn:audit.schema.fisheries.ec.europa.eu:v1"
-             xmlns:search="urn:search.audit.schema.fisheries.ec.europa.eu:v1"
-             xmlns:common="urn:common.audit.schema.fisheries.ec.europa.eu:v1"
+             targetNamespace="urn:source.audit.schema.focus.fish:v1"
+             xmlns:source="urn:source.audit.schema.focus.fish:v1"
+             xmlns:audit="urn:audit.schema.focus.fish:v1"
+             xmlns:search="urn:search.audit.schema.focus.fish:v1"
+             xmlns:common="urn:common.audit.schema.focus.fish:v1"
              xmlns:xsd="http://www.w3.org/2001/XMLSchema"
              xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
              xmlns="http://schemas.xmlsoap.org/wsdl/">
 
     <types>
-        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:source.audit.schema.fisheries.ec.europa.eu:v1">
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:source.audit.schema.focus.fish:v1">
 
-            <xsd:import namespace="urn:common.audit.schema.fisheries.ec.europa.eu:v1" schemaLocation="AuditCommon.xsd"/>
-            <xsd:import namespace="urn:search.audit.schema.fisheries.ec.europa.eu:v1" schemaLocation="AuditSearch.xsd"/>
-            <xsd:import namespace="urn:audit.schema.fisheries.ec.europa.eu:v1" schemaLocation="Audit.xsd"/>
+            <xsd:import namespace="urn:common.audit.schema.focus.fish:v1" schemaLocation="AuditCommon.xsd"/>
+            <xsd:import namespace="urn:search.audit.schema.focus.fish:v1" schemaLocation="AuditSearch.xsd"/>
+            <xsd:import namespace="urn:audit.schema.focus.fish:v1" schemaLocation="Audit.xsd"/>
 
             <!-- Audit Base Request -->
             <xsd:simpleType name="AuditDataSourceMethod">
