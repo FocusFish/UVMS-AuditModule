@@ -84,7 +84,7 @@
     </dependencies>
 
     <scm>
-        <connection>scm:git:https://github.com/FocusFish/UVMS-AuditModule-APP.git</connection>
+        <connection>scm:git:https://github.com/FocusFish/UVMS-AuditModule.git</connection>
         <tag>HEAD</tag>
     </scm>
 
