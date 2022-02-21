@@ -10,9 +10,9 @@ copy of the GNU General Public License along with the IFDM Suite. If not, see <h
  */
 package fish.focus.uvms.audit.service;
 
-import eu.europa.ec.fisheries.schema.config.types.v1.PullSettingsStatus;
-import eu.europa.ec.fisheries.schema.config.types.v1.SettingType;
-import eu.europa.ec.fisheries.uvms.config.model.mapper.ModuleResponseMapper;
+import fish.focus.schema.config.types.v1.PullSettingsStatus;
+import fish.focus.schema.config.types.v1.SettingType;
+import fish.focus.uvms.config.model.mapper.ModuleResponseMapper;
 import fish.focus.uvms.audit.service.message.AuditConfigMessageProducerBean;
 import javax.ejb.ActivationConfigProperty;
 import javax.ejb.MessageDriven;

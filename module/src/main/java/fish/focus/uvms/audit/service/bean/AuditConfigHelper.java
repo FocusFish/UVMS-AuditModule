@@ -17,7 +17,7 @@ import java.util.List;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import eu.europa.ec.fisheries.uvms.config.constants.ConfigHelper;
+import fish.focus.uvms.config.constants.ConfigHelper;
 import fish.focus.uvms.audit.service.config.ParameterKey;
 
 @Stateless
