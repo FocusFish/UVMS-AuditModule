@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
   
     <parent>
-        <groupId>eu.europa.ec.fisheries.uvms.audit</groupId>
+        <groupId>fish.focus.uvms.audit</groupId>
         <artifactId>audit</artifactId>
         <version>4.3.11-SNAPSHOT</version>
     </parent>
