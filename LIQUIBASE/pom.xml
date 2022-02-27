@@ -4,11 +4,11 @@
     <parent>
         <groupId>fish.focus.uvms.audit</groupId>
         <artifactId>audit</artifactId>
-        <version>4.3.12-SNAPSHOT</version>
+        <version>4.3.12</version>
     </parent>
 
     <artifactId>liquibase</artifactId>
-    <version>4.3.12-SNAPSHOT</version>
+    <version>4.3.12</version>
     <name>liquibase</name>
     <packaging>pom</packaging>
 
