@@ -9,7 +9,7 @@
     <parent>
         <groupId>fish.focus.uvms.audit</groupId>
         <artifactId>audit</artifactId>
-        <version>4.3.11</version>
+        <version>4.3.12</version>
     </parent>
 
     <properties>
@@ -38,7 +38,7 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>eu.europa.ec.fisheries.uvms</groupId>
+            <groupId>fish.focus.uvms.lib</groupId>
             <artifactId>uvms-config</artifactId>
             <version>${uvms.config.version}</version>
         </dependency>

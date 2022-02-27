@@ -13,8 +13,8 @@ package fish.focus.uvms.audit.service.message;
 
 import fish.focus.uvms.commons.message.api.MessageConstants;
 import fish.focus.uvms.commons.message.impl.AbstractConsumer;
-import eu.europa.ec.fisheries.uvms.config.exception.ConfigMessageException;
-import eu.europa.ec.fisheries.uvms.config.message.ConfigMessageConsumer;
+import fish.focus.uvms.config.exception.ConfigMessageException;
+import fish.focus.uvms.config.message.ConfigMessageConsumer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
