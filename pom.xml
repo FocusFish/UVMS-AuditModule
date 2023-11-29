@@ -10,7 +10,7 @@
 
     <groupId>fish.focus.uvms.audit</groupId>
     <artifactId>audit</artifactId>
-    <version>4.3.13-SNAPSHOT</version>
+    <version>4.3.13</version>
     <packaging>pom</packaging>
     <description>Maven project-archetype for UnionVms modules</description>
 
