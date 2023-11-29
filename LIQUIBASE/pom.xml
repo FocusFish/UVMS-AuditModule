@@ -4,16 +4,16 @@
     <parent>
         <groupId>fish.focus.uvms.audit</groupId>
         <artifactId>audit</artifactId>
-        <version>4.3.12</version>
+        <version>4.3.13</version>
     </parent>
 
     <artifactId>liquibase</artifactId>
-    <version>4.3.12</version>
+    <version>4.3.13</version>
     <name>liquibase</name>
     <packaging>pom</packaging>
 
     <properties>
-        <liquibase-maven-plugin>4.7.1</liquibase-maven-plugin>
+        <liquibase-maven-plugin>4.25.0</liquibase-maven-plugin>
     </properties>
 
     <profiles>
@@ -32,7 +32,7 @@
                 <db.outputFile>changelog/generatedChangelog.xml</db.outputFile>
                 <driver.groupId>org.postgresql</driver.groupId>
                 <driver.artifactId>postgresql</driver.artifactId>
-                <driver.version>42.3.3</driver.version>
+                <driver.version>42.7.0</driver.version>
             </properties>
             <dependencies>
 		        <dependency>
@@ -92,7 +92,7 @@
 					<plugin>
 						<groupId>org.codehaus.mojo</groupId>
 						<artifactId>build-helper-maven-plugin</artifactId>
-						<version>3.3.0</version>
+						<version>3.5.0</version>
 						<executions>
 							<execution>
 								<id>attach-artifacts</id>
@@ -152,7 +152,7 @@
         <plugins>
             <plugin>
                     <artifactId>maven-assembly-plugin</artifactId>
-                    <version>3.3.0</version>
+                    <version>3.6.0</version>
                     <configuration>
                         <descriptors>assembly.xml</descriptors>
                         <finalName>${artifactId}</finalName>
@@ -169,7 +169,7 @@
                 </plugin>
                 <plugin>
                     <artifactId>maven-jar-plugin</artifactId>
-                    <version>3.2.2</version>
+                    <version>3.3.0</version>
                     <executions>
                         <execution>
                             <id>default-jar</id>
@@ -181,7 +181,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-deploy-plugin</artifactId>
-                    <version>3.0.0-M2</version>
+                    <version>3.1.1</version>
                     <goals>
                         <goal>deploy-file</goal>
                     </goals>

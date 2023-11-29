@@ -5,27 +5,27 @@
         <groupId>fish.focus.uvms.maven</groupId>
         <artifactId>uvms-pom</artifactId>
         <relativePath />
-        <version>3.16</version>
+        <version>3.19</version>
     </parent>
 
     <groupId>fish.focus.uvms.audit</groupId>
     <artifactId>audit</artifactId>
-    <version>4.3.12</version>
+    <version>4.3.13</version>
     <packaging>pom</packaging>
     <description>Maven project-archetype for UnionVms modules</description>
 
     <properties>
         <installAtEnd>false</installAtEnd>
 
-        <docker.dev.version>4.1.3</docker.dev.version>
+        <docker.dev.version>4.2.21</docker.dev.version>
         <docker.liquibase.changeLogFile>LIQUIBASE/changelog/db-changelog-master.xml</docker.liquibase.changeLogFile>
         <docker.liquibase.db.user>audit</docker.liquibase.db.user>
         <docker.liquibase.db.passwd>audit</docker.liquibase.db.passwd>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <usm4uvms.version>4.1.10</usm4uvms.version>
+        <usm4uvms.version>4.1.11</usm4uvms.version>
         <uvms.common.version>4.1.12</uvms.common.version>
         <uvms.config.version>4.1.6</uvms.config.version>
-        <fish.focus.parent.version>3.16</fish.focus.parent.version>
+        <fish.focus.parent.version>3.19</fish.focus.parent.version>
 
         <project.scm.id>github</project.scm.id>
     </properties>
@@ -67,7 +67,7 @@
                 <version>${uvms.common.version}</version>
             </dependency>
             <dependency>
-                <groupId>eu.europa.ec.fisheries.uvms.docker</groupId>
+                <groupId>fish.focus.uvms.docker</groupId>
                 <artifactId>uvms-docker-wildfly-unionvms</artifactId>
                 <version>${docker.dev.version}</version>
                 <type>pom</type>
