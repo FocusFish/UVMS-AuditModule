@@ -11,19 +11,19 @@ copy of the GNU General Public License along with the IFDM Suite. If not, see <h
  */
 package fish.focus.uvms.audit;
 
-import static org.mockito.Mockito.verify;
-
-import javax.persistence.EntityManager;
-
+import fish.focus.uvms.audit.service.dao.bean.AuditDaoBean;
+import fish.focus.uvms.audit.service.entity.component.AuditLog;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.mockito.runners.MockitoJUnitRunner;
-import fish.focus.uvms.audit.service.dao.bean.AuditDaoBean;
-import fish.focus.uvms.audit.service.entity.component.AuditLog;
+import org.mockito.junit.MockitoJUnitRunner;
+
+import javax.persistence.EntityManager;
+
+import static org.mockito.Mockito.verify;
 
 @RunWith(MockitoJUnitRunner.class)
 public class DaoBeanTest {
