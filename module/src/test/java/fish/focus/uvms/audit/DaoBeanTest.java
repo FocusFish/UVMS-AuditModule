@@ -13,6 +13,7 @@ package fish.focus.uvms.audit;
 
 import fish.focus.uvms.audit.service.dao.bean.AuditDaoBean;
 import fish.focus.uvms.audit.service.entity.component.AuditLog;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -34,9 +35,16 @@ public class DaoBeanTest {
     @InjectMocks
     private AuditDaoBean dao;
 
+    private AutoCloseable openedMocks;
+
     @Before
     public void setUp() {
-        MockitoAnnotations.initMocks(this);
+        openedMocks = MockitoAnnotations.openMocks(this);
+    }
+
+    @After
+    public void closeMocks() throws Exception {
+        openedMocks.close();
     }
 
     @Test
