@@ -12,27 +12,15 @@ copy of the GNU General Public License along with the IFDM Suite. If not, see <h
 package fish.focus.uvms.audit.service.mapper;
 
 import fish.focus.schema.audit.v1.AuditLogType;
-import fish.focus.uvms.commons.date.DateUtils;
 import fish.focus.uvms.audit.MockData;
 import fish.focus.uvms.audit.service.entity.component.AuditLog;
-import fish.focus.uvms.audit.service.mapper.AuditLogMapper;
-import org.junit.Before;
+import fish.focus.uvms.commons.date.DateUtils;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.MockitoAnnotations;
-import org.mockito.junit.MockitoJUnitRunner;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertSame;
 
-@RunWith(MockitoJUnitRunner.class)
 public class MapperTest {
-
-
-    @Before
-    public void setUp() {
-        MockitoAnnotations.initMocks(this);
-    }
 
     @Test
     public void testEntityToModel() {
